@@ -24,7 +24,7 @@ adb logcat -d | tail -n 200 > logcat_root_check.txt
 ```
 ✅ Fichier de log sauvegardé
 
-📸 **Capture : [etape1.png](./screenshots/etape1.png), [etape1.1.png](./screenshots/etape1.1.png)
+📸 **Capture : ![etape1.png](./screenshots/etape1.png), ![etape1.1.png](./screenshots/etape1.1.png)
 
 ---
 
