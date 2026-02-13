@@ -24,7 +24,9 @@ adb logcat -d | tail -n 200 > logcat_root_check.txt
 ```
 ✅ Fichier de log sauvegardé
 
-📸 **Capture : ![etape1.png](./screenshots/etape1.png), ![etape1.1.png](./screenshots/etape1.1.png)
+📸 **Capture : ![etape1.png](./screenshots/etape1.png) 
+
+ ![etape1.1.png](./screenshots/etap1.1.png)
 
 ---
 
@@ -56,7 +58,7 @@ List of devices attached
 emulator-5554    device
 ```
 
-📸 **Capture :** [etape3.png](./screenshots/etape3.png)
+📸 **Capture :** ![etape3.png](./screenshots/etape3.png)
 
 ---
 
@@ -74,7 +76,7 @@ Performing Streamed Install
 Success
 ```
 
-📸 **Capture :** [etape4.png](./screenshots/etape4.png)
+📸 **Capture :** ![etape4.png](./screenshots/etape4.png)
 
 ---
 
@@ -92,7 +94,7 @@ Success
 **Résultat attendu :** Menu principal affiché
 **Intérêt sécurité :** Vérifier si le root bloque le lancement
 
-📸 **Capture :** [etape5_s1.png](./screenshots/etape5_s1.png)
+📸 **Capture :** ![etape5_s1.png](./screenshots/etape5_s1.png)
 
 ---
 
@@ -108,7 +110,7 @@ Success
 **Résultat attendu :** L'application exécute l'action sans crash
 **Intérêt sécurité :** Analyser les fuites potentielles dans logcat
 
-📸 **Capture :** [etape5_s2.png](./screenshots/etape5_s2.png)
+📸 **Capture :** ![etape5_s2.png](./screenshots/etape5_s2.png)
 
 ---
 
@@ -135,7 +137,7 @@ drwxrwxr-x 2 u0_a193 u0_a193 4096 databases
 drwxrwxr-x 2 u0_a193 u0_a193 4096 shared_prefs
 ```
 
-📸 **Capture :** [etape5_s3.png](./screenshots/etape5_s3.png) [etape14.png](./screenshots/etape14.png)
+📸 **Capture :** ![etape5_s3.png](./screenshots/etape5_s3.png) [etape14.png](./screenshots/etape14.png)
 
 ---
 
@@ -287,7 +289,7 @@ adb logcat -d | tail -n 200 > logcat_root_check.txt
 | **Reset effectué** | Oui (Wipe Data) |
 | **Preuve reset** | Capture écran de confirmation |
 
-📸 **Captures incluses :** [etape16.png](./screenshots/etape16.png)
+📸 **Captures incluses :** ![etape16.png](./screenshots/etape16.png)
 
 ---
 
@@ -305,7 +307,7 @@ adb shell pm list packages | grep diva
 ```
 *(aucun résultat)*
 
-📸 **Capture :** [etape17.png](./screenshots/etape17.png)
+📸 **Capture :** ![etape17.png](./screenshots/etape17.png)
 
 ---
 
@@ -319,7 +321,8 @@ adb shell pm list packages | grep diva
 adb exec-out screencap -p > preuve_reset.png
 ```
 
-📸 **Capture :** [etape18.png](./screenshots/etape18.png) [etape18.1.png](./screenshots/etape18.1.png)
+📸 **Capture :** ![etape18.png](./screenshots/etape18.png)
+![etape18.1.png](./screenshots/etape18.1.png)
 
 ---
 
